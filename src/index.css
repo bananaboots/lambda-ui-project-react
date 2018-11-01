@@ -183,7 +183,7 @@ body {
   font-weight: 700;
   font-size: 4.8rem;
 }
-.hamburger-expanded .links .hover {
+.hamburger-expanded .links a:hover {
   color: #222222;
 }
 .hide {
@@ -377,6 +377,7 @@ body {
 }
 .services .intro {
   margin-top: 5rem;
+  text-align: left;
 }
 @media (max-width: 650px) {
   .services .intro {
@@ -405,6 +406,10 @@ body {
   font-size: 2rem;
   font-weight: 700;
   text-align: center;
+}
+.services .tabs .tab-links .tab-link:hover {
+  background-color: #222222;
+  color: #FFF;
 }
 @media (max-width: 800px) {
   .services .tabs .tab-links {
@@ -570,4 +575,8 @@ body {
   .mobile {
     display: block;
   }
+}
+
+h1, h2, p {
+  text-align: left;
 }

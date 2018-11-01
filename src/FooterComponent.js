@@ -9,7 +9,7 @@ class FooterComponent extends Component {
           <div class="email">
             <h3>Interested in starting a project?</h3>
             <h3>Let's talk:</h3>
-            <div class="form">Enter email</div>
+            <input class="form" type="text" value="Enter email"></input><br/>
             <span>We'll never share your email with anyone else.</span>
           </div>
           <div class="office">
